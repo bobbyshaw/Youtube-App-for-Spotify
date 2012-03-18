@@ -81,8 +81,6 @@ function findVideo() {
             // change dataType to 'text' so that jquery doesn't try to parse xml as parsing fails for some reason
             dataType: "text",
             success: function(xml) {
-                // just remove the declaration using replace()
-                //xml = xml.replace('<?xml version="1.0" ?>', '');
 
                 var ytid = ($(xml).find('entry').find("yt\\:videoid").text());
                 setYTID(ytid);
