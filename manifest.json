@@ -1,0 +1,17 @@
+{
+    "BundleType": "Application",
+    "AppIcon": {
+        "18x18": "youtube.png"
+    },
+    "AppName": {
+        "en": "Youtube"
+    },
+    "SupportedLanguages": [
+        "en"
+    ],
+    "RequiredPermissions": [
+        "http://*.youtube.com",
+        "https://*.youtube.com",
+        "http://*.ytimg.com"
+    ]
+}
